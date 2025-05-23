@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 16px;
+}
+
+.shipImage {
+    max-width: 600px;
+    width: 100%;
+}
+
+.infoField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.infoField, .descriptionWrapper p:nth-child(1) {
+    color: #ee9292;
+}
+.infoField, .descriptionWrapper p:nth-child(2) {
+    color: #fff;
+    font-size: 18px;
+}
+
+.infoField img {
+    width: 20px;
+    height: 20px;
+}
+
+.descriptionWrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
